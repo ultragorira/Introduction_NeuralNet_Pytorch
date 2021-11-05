@@ -1,0 +1,3 @@
+Step function returns a value either of 0 or 1 
+Sigmoid function returns a value between 0 and 1, a probability. When x is 0, the probability will be 50%
+Sigmoid(x) = 1/(1+e^-x) where e is constant and x is output of Wx + b, e.g. 4x1 + 5x2 - 9 = y

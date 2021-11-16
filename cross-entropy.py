@@ -9,4 +9,4 @@ def cross_entropy(Y, P):
     print (-np.sum(Y * np.log(P) + (1 - Y) * np.log(1 - P)))
 
 
-cross_entropy([1, 1, 0], [0.8, 0.7, 0.1])
+cross_entropy([1, 1, 0], [0.9, 0.7, 0.1])
